@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+
+* {
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: gray;
+
+}
+
+.sidebarshadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sidebar-container.dark {
+    background: rgba(62, 59, 59, 0.355);
+}
+
+.text-sidebar.dark {
+    color: #fff;
+}
+
+.text-resume.dark {
+    color: rgba(26, 241, 241, 0.77);
+    border: 1px solid rgba(26, 241, 241, 0.77);
+}
+
+.text-resume.dark:hover {
+    color: rgba(10, 147, 239, 0.885);
+    border: 1px solid rgba(10, 147, 239, 0.885);
+}
+
+.text-hap.dark {
+    color: #fff;
+}
+
+.text-hap.dark:hover {
+    background-color: rgba(83, 81, 81, 0.634);
+}
+
+.ui-container {
+    background: #fff;
+    transition: 0.5s;
+
+}
+
+.ui-container.dark {
+    background: #222;
+}
+
+.ui-sidebar{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.darkmode-container.dark{
+    background-color:rgba(62, 59, 59, 0.355);
+}
